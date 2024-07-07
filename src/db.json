@@ -1,0 +1,16 @@
+{
+  "employee": [
+    {
+      "id": "b4f9",
+      "fName": "Sama",
+      "lName": "Bodke",
+      "Address": "Classes"
+    }
+  ],
+  "todoList": [
+    {
+      "todoName": "kishor shripati phawade",
+      "id": "d8dc"
+    }
+  ]
+}
