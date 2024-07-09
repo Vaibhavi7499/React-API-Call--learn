@@ -40,5 +40,17 @@
       "phone": "95803",
       "email": "v@gmail.com"
     }
+  ],
+  "expense": [
+    {
+      "id": "82d6",
+      "expense": "Mobile",
+      "amount": "30000"
+    },
+    {
+      "id": "5d97",
+      "expense": "Laptop",
+      "amount": "70000"
+    }
   ]
 }

@@ -33,6 +33,9 @@ class Layout extends Component {
       <li class="nav-item">
       <Link className="nav-link" to="/register">Register</Link>
       </li>
+      <li class="nav-item">
+      <Link className="nav-link" to="/expense-tracker">Expense Tracker</Link>
+      </li>
     </ul>
   </div>
 </nav>

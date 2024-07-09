@@ -9,6 +9,7 @@ import EmpList from './components/EmpList';
 import TodoList from './components/TodoList';
 import Login from './components/Login';
 import Register from './components/Register';
+import ExpenseTracker from './components/ExpenseTracker';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/todo-list' element={<TodoList/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
+        <Route path='/expense-tracker' element={<ExpenseTracker/>}/>
       </Routes>
       </BrowserRouter>
     </div>
