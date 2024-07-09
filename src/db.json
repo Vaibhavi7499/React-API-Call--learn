@@ -12,5 +12,33 @@
       "todoName": "kishor shripati phawade",
       "id": "d8dc"
     }
+  ],
+  "login": [
+    {
+      "id": "3adf",
+      "username": "kishor",
+      "password": "1234"
+    },
+    {
+      "id": "f21e",
+      "username": "vaibhavi",
+      "password": "123"
+    }
+  ],
+  "register": [
+    {
+      "id": "e37d",
+      "username": "kishor",
+      "password": "1234",
+      "phone": "034034304",
+      "email": "k@gmail.com"
+    },
+    {
+      "id": "d78b",
+      "username": "vaibhavi",
+      "password": "123",
+      "phone": "95803",
+      "email": "v@gmail.com"
+    }
   ]
 }

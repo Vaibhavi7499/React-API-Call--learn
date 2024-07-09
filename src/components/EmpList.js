@@ -82,6 +82,12 @@ export class EmpList extends Component {
   render() {
     return (
       <div>
+      <label>First Name: </label>
+      <input type="text"></input>{" "}
+      <label>Last Name: </label>
+      <input type="text"></input>{" "}
+      <label>Address: </label>
+      <input type="text"></input>
         <button onClick={this.createEmployee} className="btn btn-success">
           Add Emp
         </button>

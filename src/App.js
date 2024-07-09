@@ -7,6 +7,8 @@ import Layout from './components/Layout';
 import CountAuto from './components/CountAuto';
 import EmpList from './components/EmpList';
 import TodoList from './components/TodoList';
+import Login from './components/Login';
+import Register from './components/Register';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path='/count' element={<CountAuto/>}/>
         <Route path='/emp-list' element={<EmpList/>}/>
         <Route path='/todo-list' element={<TodoList/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/register' element={<Register/>}/>
       </Routes>
       </BrowserRouter>
     </div>
