@@ -4,11 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import counterContext from './context/CounterContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+let user = {
+  name:"kishor"
+}
 root.render(
   <React.StrictMode>
+    <counterContext.Provider value={user}>
     <App />
+    </counterContext.Provider >
   </React.StrictMode>
 );
 

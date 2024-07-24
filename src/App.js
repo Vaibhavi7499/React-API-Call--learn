@@ -10,6 +10,7 @@ import TodoList from './components/TodoList';
 import Login from './components/Login';
 import Register from './components/Register';
 import ExpenseTracker from './components/ExpenseTracker';
+import CounterFunc from './components/CounterFunc';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
         <Route path='/expense-tracker' element={<ExpenseTracker/>}/>
+        <Route path='/counter-context' element={<CounterFunc/>}/>
       </Routes>
       </BrowserRouter>
     </div>
