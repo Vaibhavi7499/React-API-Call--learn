@@ -11,12 +11,22 @@ import Login from './components/Login';
 import Register from './components/Register';
 import ExpenseTracker from './components/ExpenseTracker';
 import CounterFunc from './components/CounterFunc';
+import {useState} from "react"
+import authContext from "./context/AuthContext"
+import GetCounter from './components/GetCounter';
 
 function App() {
+  const [counter, setCounter] = useState(0)
+  let obj = {
+    counter,
+    setCounter
+  }
   return (
     <div className="App">
       {/* <MovieSearch/> */}
       {/* <UserSearch/> */}
+      <authContext.Provider value={obj}>
+
       <BrowserRouter>
       <Layout/>
       <Routes>
@@ -29,8 +39,11 @@ function App() {
         <Route path='/register' element={<Register/>}/>
         <Route path='/expense-tracker' element={<ExpenseTracker/>}/>
         <Route path='/counter-context' element={<CounterFunc/>}/>
+        <Route path='/getcounter' element={<GetCounter/>}/>
       </Routes>
       </BrowserRouter>
+      </authContext.Provider>
+
     </div>
   );
 }
