@@ -1,20 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import counterContext from './context/CounterContext';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.min.css";
+import counterContext from "./context/CounterContext";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 let user = {
-  name:"kishor"
-}
+  name: "kishor",
+};
 root.render(
   <React.StrictMode>
     <counterContext.Provider value={user}>
-    <App />
-    </counterContext.Provider >
+      <App />
+    </counterContext.Provider>
   </React.StrictMode>
 );
 
