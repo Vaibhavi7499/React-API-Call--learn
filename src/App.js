@@ -14,6 +14,8 @@ import { useState } from "react";
 import authContext from "./context/AuthContext";
 import GetCounter from "./components/GetCounter";
 import nameContext from "./context/NameContext";
+import FunctionRef from "./components/FunctionRef";
+import ClassRef from "./components/ClassRef";
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -27,7 +29,7 @@ function App() {
     <div className="App">
       {/* <MovieSearch/> */}
       {/* <UserSearch/> */}
-      <authContext.Provider value={obj}>
+      {/* <authContext.Provider value={obj}>
         <nameContext.Provider value={{ name, setName }}>
           <BrowserRouter>
             <Layout />
@@ -45,7 +47,9 @@ function App() {
             </Routes>
           </BrowserRouter>
         </nameContext.Provider>
-      </authContext.Provider>
+      </authContext.Provider> */}
+      <FunctionRef/>
+      <ClassRef/>
     </div>
   );
 }
